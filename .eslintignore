@@ -1,0 +1,6 @@
+/build/**
+/public/**
+/scripts/**
+/config/**
+/src/serviceWorker.js
+package.json
