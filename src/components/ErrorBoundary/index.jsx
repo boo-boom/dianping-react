@@ -9,7 +9,7 @@ const errorCatch = WrapComponent => {
       this.state = { hasError: false, errInfo: "" };
     }
 
-    componentWillMount() {
+    UNSAFE_componentWillMount() {
       let errorInfo = {};
       window.addEventListener(
         "error",
